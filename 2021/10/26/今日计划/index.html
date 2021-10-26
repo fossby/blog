@@ -100,7 +100,7 @@
           <h2 class="title-sub-wrap">
             <strong>John Doe</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2021-10-26T05:46:20.385Z" itemprop="datePublished">2021-10-26</time>
+            <time  class="article-date" datetime="2021-10-26T05:52:07.423Z" itemprop="datePublished">2021-10-26</time>
           </h2>
           <ul class="wrap-list dark">
   
@@ -129,19 +129,11 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h4 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h4><hr>
-<ol>
-<li>开篇即是以水汽输送引入（这说明我们应该开篇就引入西风季风的概念）</li>
-<li>引入云南地区，指出研究的意义。</li>
-<li>指出目前的欠缺（本研究重点所在）</li>
+        <h4 id="今日计划"><a href="#今日计划" class="headerlink" title="今日计划"></a>今日计划</h4><ol>
+<li>上午扩展阅读小一阵，找到一篇实用的文章<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/u0XmP9etF5iULAnhbZP7NA">VSCODE的项目配置</a>，看到了 Vscode 如何远控链接服务器，觉得很有必要学习，但是潜意识告诉我，目前应该科研第一，这个慢慢摸索吧，参考项<a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse">openssh的安装</a>,<a target="_blank" rel="noopener" href="https://code.visualstudio.com/docs/remote/ssh-tutorial">Remote development over SSH</a>。还有多阅读关于Vscode的包的相关，很多东西都在那里。</li>
+<li>看到一个可能是未来的软件<a target="_blank" rel="noopener" href="https://twitter.com/i/web/status/1451623794716545028">mochi</a>搜不到。</li>
+<li>今天终于弄明白了 EC 的气压层变量 <code>Geopotential</code>,这玩意不是,其单位是 m<sup>2</sup>s<sup>2</sup>,其实就是m 乘以 重力加速度 g,但这个结果并不是位势米,只有再除以常数 9.80665 后才是位势米,然后再除以 10 得到位势力什米.<br>详情参考<a target="_blank" rel="noopener" href="http://www.21cma.net/thread-6007-1-1.html">位势什米的说明</a></li>
 </ol>
-<h4 id="资料方法"><a href="#资料方法" class="headerlink" title="资料方法"></a>资料方法</h4><hr>
-<p>云南 122 站5月降水，Era-Interim 的月平均资料。<br>方法：把云南装进了矩形框里，然后对四边计算水汽收支。<br><img src="2021-10-25-18-11-12.png"></p>
-<h4 id="5月将随与云南的相互关系"><a href="#5月将随与云南的相互关系" class="headerlink" title="5月将随与云南的相互关系"></a>5月将随与云南的相互关系</h4><p>利用四个边界的水汽收支序列对实际降水做了相关。来研究区域特征。<br><img src="2021-10-25-18-11-38.png"></p>
-<blockquote>
-<p>注意：单纯的纬向水汽与降水是负相关（且不过检定）。这为我们的论文创新点扳回一局。</p>
-</blockquote>
-<p><img src="2021-10-25-18-13-35.png"><br>其第一模态与我们做出来的 eof 是一致的，全区一直，降水时间系数也对的上（他的降水系数甚至达到了88%）,且最大值是在南部，而不知道为什么，SPI指数做出来的首先方差系数降低，其次大致中心不明朗。<br><img src="2021-10-25-19-13-05.png"><br>因为他是单层的，所以直接就做了相关。这样一来就不存在所谓的某一层的问题，因为他是整个考虑的。<br><img src="2021-10-25-19-18-57.png"><br>做了个区域降水距平。然后接下来用降水距平百分率做了研究，而没有用上面提到的东西研究。搞不懂为什么(盲猜纯粹是为了进行字数补齐，后来仔细想了想并不是，而是因为他之后分析的是区域特征，所以并没有选择用EOF的模态系数，而我们因为研究的是整体情况，所以选择时间序列并无问题，如果要做分形特征的话，这里是个细节，可以深挖)。然后根据降水距平百分率对东西南北四个边界进行了探索，实际上最后得出的结果就是男边界的水汽输送是最大的（这为我们的研究又佐证了。）<br>总结：大致看了一下，他其实只是探索了四个边界的水汽收支，然后进行了差值分析，得出南部边界是水汽主要原地。然后进行了合成分析。说实话，文章写的一般，我也可以写个北大核心。</p>
 
       </section>
 
@@ -149,28 +141,14 @@
       
         <nav class="article-nav">
           
+          
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
     <div class="card-text">
       
-        <a href="/2021/10/26/%E4%BB%8A%E6%97%A5%E8%AE%A1%E5%88%92/" itemprop="url">
+        <a href="/2021/10/26/%E6%B0%B4%E6%B1%BD%E8%BE%93%E9%80%81%E4%B8%8E%E4%BA%91%E5%8D%975%E6%9C%88%E9%99%8D%E6%B0%B4%E5%85%B3%E7%B3%BB%E7%A0%94%E7%A9%B6_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" itemprop="url">
           <h2 class="card-text--title text-ellipsis">(no title)</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
-          
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-    <div class="card-text">
-      
-        <a href="/2021/10/25/%E6%B5%8B%E8%AF%95/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">测试</h2>
         </a>
       
       <div class="card-text--row">Older</div>
